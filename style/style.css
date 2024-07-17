@@ -94,6 +94,7 @@ opacity: 0.7;
   border-radius: 16px;
 
 background: rgba(13, 19, 33, 0.02);
+margin-bottom:49px ;
 }
 
 .division2{
@@ -192,6 +193,7 @@ text-decoration-line: underline;
 }
 .big-div{
   display: flex;
+  margin-bottom:111px ;
 }
 
 .divhtml{
@@ -220,6 +222,73 @@ border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
 
+.html{
+   color: #0D1321;
+   font-weight: 800;
+   font-size: 24px;
+   font-family:Azeret Mono ;
+}
+.font{
+  font-family:Azeret Mono ;
+  font-size: 16px;
+  color:#0D1321 ;
+  opacity: 0.7;
+
+}
+.node{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 40px;
+margin-bottom:24px ;
+}
 
 
 
+.support-head{
+  color:#FFFFFF ;
+  font-family:Azeret Mono ;
+  font-weight: bold;
+  font-size: 32px;
+}
+.support-p{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family:Azeret Mono ;
+}
+.support-section{
+  background-image:url(../assets/handshake.jpg);
+position: static;
+width: 1044px;
+height: 186px;
+padding: 0px;
+margin: 32px 0px;
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+text-align: center;
+display: flex;
+justify-content: space-around;
+
+}
+
+.footer-text{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align:left;
+}
+.footer-icon{
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
